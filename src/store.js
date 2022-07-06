@@ -68,7 +68,7 @@ const getStoreLink = (referenceId) => {
     }
 }
 
-export const storeUpdateStatus = async () => {
+module.exports.storeUpdateStatus = async () => {
     const [storeVersion, referenceId] = await getStoreVersionAndUrl();
     const currentVersion = getAppVersion();
     return {

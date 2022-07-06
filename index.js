@@ -1,2 +1,2 @@
-import storeUpdateStatus from './src/store';
-export default storeUpdateStatus;
+import { storeUpdateStatus } from './src/store';
+module.exports = { storeUpdateStatus };
