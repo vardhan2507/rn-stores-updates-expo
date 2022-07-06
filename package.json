@@ -1,0 +1,36 @@
+{
+  "name": "rn-stores-updates-expo",
+  "version": "1.0.0",
+  "description": "This package allows to fetch the Playstore/ AppStore information of the app built on expo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vardhan2507/rn-stores-updates-expo"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "appstore",
+    "playstore"
+  ],
+  "author": "Vardhan",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vardhan2507/rn-stores-updates-expo/blob/main/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/vardhan2507/rn-stores-updates-expo/issues"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "expo": "^45.0.0",
+    "react-native": "^0.69.1"
+  }
+}
